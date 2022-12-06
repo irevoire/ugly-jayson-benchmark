@@ -1,0 +1,12 @@
+[package]
+name = "truc"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+serde = { version = "1.0.149", features = ["serde_derive", "derive"] }
+serde_json = { version = "1.0.89", features = ["preserve_order"] }
+jayson = { git = "https://github.com/meilisearch/jayson" }
+anyhow = "1.0.66"
